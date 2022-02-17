@@ -1,0 +1,244 @@
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul, li {
+  padding: 0;
+  margin: 0;
+  line-height: 100%;
+}
+
+main {
+  width: 100%;
+  padding: 3vw 8vw;
+}
+
+main .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 2vw;
+}
+
+main .header .left h1 {
+  font-size: 3vw;
+  font-weight: 900;
+  margin-bottom: 1vw;
+}
+
+main .header .left h3 {
+  color: #1494c8;
+  font-size: 1.6vw;
+}
+
+main .header .right ul {
+  list-style: none;
+}
+
+main .header .right ul li {
+  font-size: 1vw;
+  margin: 0.5vw 0;
+}
+
+main .details {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+main .details section {
+  width: 47%;
+}
+
+main .details section article {
+  width: 100%;
+  margin: 2vw 0;
+}
+
+main .details section article h2 {
+  color: rgba(23, 180, 243, 0.85);
+  font-size: 1.4vw;
+  margin-top: 2.5vw;
+  margin-bottom: 0.8vw;
+}
+
+main .details section.left {
+  width: 35%;
+}
+
+main .details section.left article .item {
+  margin-bottom: 1.5vw;
+}
+
+main .details section.left article .item h5 {
+  font-size: 1.3vw;
+  margin-bottom: 0.5vw;
+}
+
+main .details section.left article .item p {
+  font-size: 1.2vw;
+  line-height: 110%;
+  width: 50%;
+}
+
+main .details section.left article.position .item {
+  margin-top: 1vw;
+}
+
+main .details section.left article.position .item p {
+  width: 100%;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+main .details section.left article ul {
+  font-size: 1.2vw;
+  margin-left: 1.5vw;
+}
+
+main .details section.left article ul li {
+  width: 70%;
+  margin-bottom: 1vw;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+main .details section.right {
+  width: 55%;
+}
+
+main .details section.right article .item {
+  margin-bottom: 1vw;
+}
+
+main .details section.right article .item h5 {
+  font-size: 1.3vw;
+}
+
+main .details section.right article .item div {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 1.2vw;
+}
+
+main .details section.right article .item div span {
+  color: rgba(0, 0, 0, 0.5);
+  font-style: italic;
+}
+
+main .details section.right article .item .stack {
+  font-style: normal;
+  margin: 0.7vw 0;
+  width: 50%;
+  font-size: 1.2vw;
+}
+
+main .details section.right article .item .stack span {
+  font-weight: 600;
+  font-style: normal;
+}
+
+main .details section.right article.education .item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+main .details section.right article.education .item .info, main .details section.right article.education .item .time {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+main .details section.right article.education .item .info h4, main .details section.right article.education .item .info h6, main .details section.right article.education .item .time h4, main .details section.right article.education .item .time h6 {
+  font-size: 1.2vw;
+}
+
+main .details section.right article.education .item .info h6, main .details section.right article.education .item .time h6 {
+  font-weight: 400;
+}
+
+main .details section.right article.education .item .info.info span, main .details section.right article.education .item .time.info span {
+  margin-top: 0.5vw;
+}
+
+main .details section.right article.education .item .time {
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+main .details section.right article.education .item .time * {
+  width: 50%;
+  text-align: right;
+  font-size: 1.2vw;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+main .details section.right article.education .item .time h5 {
+  font-style: italic;
+}
+
+main .details section.right article.projects .item {
+  width: 100%;
+}
+
+main .details section.right article.projects .item div {
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+main .details section.right article.projects .item div p {
+  width: 70%;
+}
+
+main .details section.right article.projects .item div span {
+  text-align: right;
+}
+/*# sourceMappingURL=style.css.map */
