@@ -1,6 +1,10 @@
 # Invoice
 
-Invoice made using HTML and JS with features such as adding and cloning items, calculating taxes and total.
+Invoice made using HTML and JS with the following features:
+1) Adding items
+2) Cloning items
+3) Calculating taxes 
+4) Calculating Total
 
 ## Screenshot
 
