@@ -4,11 +4,11 @@ When a web page is loaded, the browser creates a Document Object Model of the pa
 
 The HTML DOM model is constructed as a tree of Objects:
 
-## Screenshots
-
 ![The HTML DOM Tree of Objects](./res/1.gif)
 
 <br>
+
+## Screenshots
 
 ![Working - 2](./res/2.png)
 
